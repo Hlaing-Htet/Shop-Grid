@@ -1,5 +1,3 @@
-import * as bootstrap from "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
-
 const cards = document.querySelectorAll(".card");
 cards.forEach((card) => {
   if (card.classList.contains("new")) {
